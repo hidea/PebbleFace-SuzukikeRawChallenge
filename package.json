@@ -1,0 +1,38 @@
+{
+    "author": "SUZUKIKE",
+    "dependencies": {},
+    "keywords": [],
+    "name": "suzukike-raw",
+    "pebble": {
+        "displayName": "SUZUKIKE Raw Challenge Face",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/pebble_bg2.png",
+                    "name": "IMAGE_SUZUKIKE_MDT",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/pebble_bg.png",
+                    "name": "IMAGE_SUZUKIKE_PDT",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "0af122fa-1314-496c-adbe-6a24826d6df0",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.2.0"
+}
